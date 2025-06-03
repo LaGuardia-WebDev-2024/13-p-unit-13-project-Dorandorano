@@ -1,3 +1,10 @@
+body {
+  background: #e3e3e3;
+  font-family: sans-serif; 
+  color: #302067;
+
+}
+
 #movie-result {
   background: rgb(244, 98, 181);
   border: 5px solid black;
@@ -5,7 +12,16 @@
   height: 160px;
   margin-top: 10px;
   margin-bottom: 20px;
+  filter: drop-shadow(30px 10px 4px #831a6d
+);
+  
 }
+
+#movie-result:hover {
+  background-color: #b4a4e9;
+  font-size: 18px;
+}
+
 
 #book-result {
   background: rgb(196, 159, 255);
@@ -14,9 +30,37 @@
   height: 160px;
   margin-top: 10px;
   margin-bottom: 20px;
+  filter: drop-shadow(30px 10px 4px #321a83
+
+);
+
 }
+
+#book-result:hover {
+  background-color: #b71ec1
+;
+  font-size: 18px;
+}
+
 
 hr {
   height: 5px;
   background-color: black;
+}
+
+
+#ham {
+  width: 100px;
+   opacity: 0.3;
+
+}
+
+#silly {
+   width: 100px;
+   opacity: 0.3;
+}
+
+#blah {
+   width: 100px;
+   opacity: 0.3;
 }
